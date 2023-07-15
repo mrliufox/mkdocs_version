@@ -1,0 +1,18 @@
+site_name: My Docs
+
+# GitHub库的名称
+repo_name: 'mrliufox/mkdocs_demo_version'
+# GitHub库的链接
+repo_url: 'https://github.com/mrliufox/mkdocs_demo_version.git'
+
+theme:
+  name: material
+
+version:
+  method:mike
+
+plugins:
+  - search
+  - mike
+nav:
+  - Home: "index.md"
